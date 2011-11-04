@@ -53,6 +53,7 @@ documentation is not available in English.
 %doc %{_texmfdistdir}/doc/latex/pst-calendar/pst-calendar-docDE.tex
 %doc %{_texmfdistdir}/doc/latex/pst-calendar/pst-calendar-docFR.pdf
 %doc %{_texmfdistdir}/doc/latex/pst-calendar/pst-calendar-docFR.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ documentation is not available in English.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
