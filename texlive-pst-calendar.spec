@@ -6,7 +6,7 @@
 # catalog-version 0.47
 Name:		texlive-pst-calendar
 Version:	0.47
-Release:	10
+Release:	11
 Summary:	Plot calendars in "fancy" ways
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-calendar
