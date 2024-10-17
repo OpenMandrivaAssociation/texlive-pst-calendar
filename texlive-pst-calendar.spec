@@ -3,7 +3,7 @@ Version:	60480
 Release:	2
 Summary:	Plot calendars in "fancy" ways
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-calendar
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-calendar
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-calendar.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-calendar.doc.r%{version}.tar.xz
